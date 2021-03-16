@@ -88,7 +88,7 @@
         <ant.version>1.10.7</ant.version>
         <asm.version>8.0.1</asm.version>
         <aspectj.maven-plugin.version>1.11</aspectj.maven-plugin.version>
-        <aspectj.version>1.9.5</aspectj.version>
+        <aspectj.version>1.9.6</aspectj.version>
         <bdb.version>18.3.12</bdb.version>
         <bonecp.version>0.8.0.RELEASE</bonecp.version>
         <commons-codec.version>1.14</commons-codec.version>

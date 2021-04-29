@@ -1,0 +1,38 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.postgresql:postgresql
+    versions:
+    - 42.2.19
+  - dependency-name: org.eclipse.jetty:jetty-continuation
+    versions:
+    - 9.4.38.v20210224
+  - dependency-name: org.eclipse.jetty:jetty-server
+    versions:
+    - 9.4.38.v20210224
+  - dependency-name: org.eclipse.jetty:jetty-webapp
+    versions:
+    - 9.4.38.v20210224
+  - dependency-name: org.eclipse.jetty:jetty-annotations
+    versions:
+    - 9.4.38.v20210224
+  - dependency-name: com.vaadin:vaadin-client-compiled
+    versions:
+    - 8.12.4
+  - dependency-name: com.vaadin:vaadin-themes
+    versions:
+    - 8.12.4
+  - dependency-name: com.vaadin:vaadin-push
+    versions:
+    - 8.12.4
+  - dependency-name: com.vaadin:vaadin-server
+    versions:
+    - 8.12.4
+  - dependency-name: com.vaadin:vaadin-shared
+    versions:
+    - 8.12.4
